@@ -17,7 +17,7 @@ jobs:
       id-token: write
       actions: read
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           # Depth 1 only. TRAPS.md (the per-repo answer key) and the original
           # READMEs were deleted in 8089e6d but stay readable in history, so a
